@@ -95,14 +95,14 @@ function fromSlug(slug) {
 }
 
 function classify(title, skills) {
-  const t = fold(title + ' ' + skills.join(' '));
-  if (/trainee|intern|sta[zż]|stazyst|graduate|absolwent/.test(t)) return /graduate/.test(t) ? 'Graduate programme' : 'Trainee';
-  if (/data engineer|inzynier danych|etl developer|big data/.test(t)) return 'Data engineer';
-  if (/(sql|database|bazodan|baz danych|pl\/sql|t-sql).*(developer|programist|engineer)|(developer|programist).*(sql|database)|\bdba\b/.test(t)) return 'Database developer';
-  if (/power ?bi|\bbi\b|tableau|reporting|raport/.test(t)) return 'Data / BI analyst';
-  if (/data analyst|analityk danych|analityczka danych|data quality|data scien/.test(t)) return 'Data analyst';
-  if (/analyst|analityk|analityczk/.test(t)) return 'Analyst';
-  if (/support|wsparci|service desk|helpdesk|administrat|serwis|konsultant|consultant/.test(t)) return /sql/.test(t) ? 'Support / SQL' : 'Support';
+  const ti = fold(title), all = fold(title + ' ' + skills.join(' '));
+  const sql = /sql|database|baz danych|bazodan/.test(all);
+  if (/trainee|intern|sta[zż]|stazyst|graduate|absolwent/.test(ti)) return /graduate|absolwent/.test(ti) ? 'Graduate programme' : 'Trainee';
+  if (/data engineer|inzynier danych|etl developer|big data/.test(ti)) return 'Data engineer';
+  if (/developer|programist|programmer|\bdba\b/.test(ti) && sql) return 'Database developer';
+  if (/support|wsparci|service desk|helpdesk|administrat|serwis|specialist|specjalist|it engineer|wdroz|implementation/.test(ti)) return sql ? 'Support / SQL' : 'Support';
+  if (/power ?bi|tableau|\bdax\b|reporting|raport|\bbi\b/.test(all)) return 'Data / BI analyst';
+  if (/data analyst|analityk danych|analityczka danych|data quality|data scien|danych/.test(ti)) return 'Data analyst';
   return 'Analyst';
 }
 function summarize(info, role) {
@@ -112,6 +112,11 @@ function summarize(info, role) {
 }
 function normMode(m) { const f = fold(m); if (/remote|zdal/.test(f)) return 'remote'; if (/hybr/.test(f)) return 'hybrid'; if (/office|stacjon|onsite/.test(f)) return 'onsite'; return 'unknown'; }
 
+// A role counts only if SQL, BI or data work shows up in its title or listed skills.
+function dataEvidence(title, skills) {
+  const t = fold(title + ' ' + (skills || []).join(' '));
+  return /sql|database|baz danych|bazodan|power ?bi|\bbi\b|tableau|\bdax\b|looker|\betl\b|data|dane|danych|pandas|snowflake|databricks|warehouse|hurtowni|graduate|absolwent|application support/.test(t);
+}
 function inPoland(info, slug) {
   const c = fold(info.city);
   if (c) return /polska|poland/.test(c) || POLISH_PLACES.some((p) => c.includes(p) || c.includes(p.replace(/-/g, ' ')));
@@ -124,6 +129,9 @@ function relevant(category, slug, info) {
   if (!inPoland(info, slug)) return 'not in Poland';
   if (NOT_RE.test(info.title)) return 'other role';
   if (!ROLE_RE.test(fold(text))) return 'not a SQL/data role';
+  if (!info.company || /apply today|check it out/i.test(info.title + ' ' + info.company)) return 'advert';
+  if (/data entry|wprowadzanie danych/i.test(info.title)) return 'other role';
+  if (!dataEvidence(info.title, info.skills)) return 'no SQL or data skills';
   const hasSql = /sql/i.test(slug + ' ' + info.title + ' ' + info.skills.join(' '));
   if ((category === 'support' || SUPPORTISH.test(info.title)) && !hasSql && !/application support|data|analyst|analityk/i.test(info.title)) return 'support without SQL';
   return '';
@@ -173,7 +181,18 @@ async function main() {
     merged.push({ ...item, summary: old && old.summary && !/^Skills:|^Junior role listed/.test(old.summary) ? old.summary : item.summary, title: item.title || (old && old.title) || '', company: item.company || (old && old.company) || '', city: item.city || (old && old.city) || '', firstSeen: old ? old.firstSeen : today, lastSeen: today });
   }
   const cutoff = new Date(Date.now() - KEEP_DAYS * 86400000).toISOString().slice(0, 10);
-  for (const old of prev.items || []) if (!found.has(old.url) && (old.lastSeen || old.firstSeen || '') >= cutoff) merged.push(old);
+  const keepOld = (o) => !LANG_RE.test(fold(o.title)) && !NOT_RE.test(o.title || '') && (!o.skills || !o.skills.length || dataEvidence(o.title, o.skills));
+  for (const old of prev.items || []) if (!found.has(old.url) && (old.lastSeen || old.firstSeen || '') >= cutoff && keepOld(old)) merged.push(old);
+  // The same offer posted for several cities becomes one row ("Kraków +6").
+  const byKey = new Map(), deduped = [];
+  for (const it of merged) {
+    const key = fold(it.title) + '|' + fold(it.company);
+    const first = byKey.get(key);
+    if (!first) { byKey.set(key, { item: it, extra: 0 }); deduped.push(it); continue; }
+    first.extra++; first.item.city = String(first.item.city).replace(/ \+\d+$/, '') + ' +' + first.extra;
+    if ((it.firstSeen || '') < (first.item.firstSeen || '')) first.item.firstSeen = it.firstSeen;
+  }
+  merged.length = 0; merged.push(...deduped);
   merged.sort((a, b) => (b.firstSeen || '').localeCompare(a.firstSeen || '') || (b.lastSeen || '').localeCompare(a.lastSeen || ''));
   const out = { updatedAt: new Date().toISOString(), region: 'All of Poland + remote', source: 'justjoin.it', items: merged.slice(0, MAX_ITEMS) };
   await writeFile(OUT, JSON.stringify(out, null, 1));
