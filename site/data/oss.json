@@ -1,4 +1,207 @@
 {
- "updatedAt": null,
- "items": []
+ "updatedAt": "2026-11-17T17:13:54.768Z",
+ "items": [
+  {
+   "id": "6401041727",
+   "repo": "sveltejs/kit",
+   "title": "Ship the docs in the @sveltejs/kit package",
+   "url": "https://github.com/sveltejs/kit/issues/17775",
+   "labels": [
+    "documentation"
+   ],
+   "created": "2026-11-15T06:52:09Z",
+   "updated": "2026-11-15T06:52:24Z",
+   "comments": 0
+  },
+  {
+   "id": "5667052685",
+   "repo": "metabase/metabase",
+   "title": "Gauge loses all its ranges when one Min or Max is empty",
+   "url": "https://github.com/metabase/metabase/issues/83439",
+   "labels": [
+    "Type:Bug",
+    "Priority:P3",
+    "Difficulty:Easy",
+    ".Frontend",
+    ".Needs Triage"
+   ],
+   "created": "2026-10-01T18:23:43Z",
+   "updated": "2026-11-02T10:17:34Z",
+   "comments": 2
+  },
+  {
+   "id": "6125966618",
+   "repo": "metabase/metabase",
+   "title": "Metabot message action buttons are invisible when focused",
+   "url": "https://github.com/metabase/metabase/issues/85985",
+   "labels": [
+    "Type:Bug",
+    "Priority:P3",
+    ".Needs Triage",
+    "Misc/Accessibility",
+    "good first issue"
+   ],
+   "created": "2026-10-30T19:49:44Z",
+   "updated": "2026-10-30T19:51:32Z",
+   "comments": 1
+  },
+  {
+   "id": "404741645",
+   "repo": "dbeaver/dbeaver",
+   "title": "Firebird SQL async \"Event\"",
+   "url": "https://github.com/dbeaver/dbeaver/issues/5153",
+   "labels": [
+    "x:firebird",
+    "help wanted",
+    "xf:sql",
+    "wait for response",
+    "external"
+   ],
+   "created": "2019-01-30T12:10:21Z",
+   "updated": "2026-10-19T11:01:26Z",
+   "comments": 3
+  },
+  {
+   "id": "5819566507",
+   "repo": "metabase/metabase",
+   "title": "Table editing: Description cell editor grows its row and renders behind the rows below",
+   "url": "https://github.com/metabase/metabase/issues/84219",
+   "labels": [
+    "Type:Bug",
+    "Priority:P3",
+    ".Frontend",
+    ".Needs Triage",
+    "Querying/Actions"
+   ],
+   "created": "2026-10-12T19:50:53Z",
+   "updated": "2026-10-18T15:46:45Z",
+   "comments": 1
+  },
+  {
+   "id": "5654909485",
+   "repo": "sveltejs/kit",
+   "title": "docs: make Svelte examples compatible with strict Twoslash checking",
+   "url": "https://github.com/sveltejs/kit/issues/17280",
+   "labels": [
+    "documentation"
+   ],
+   "created": "2026-10-01T00:30:39Z",
+   "updated": "2026-10-01T00:54:08Z",
+   "comments": 0
+  },
+  {
+   "id": "4458528561",
+   "repo": "sveltejs/kit",
+   "title": "Docs: add more comprehensive error handling patterns for form actions",
+   "url": "https://github.com/sveltejs/kit/issues/15854",
+   "labels": [
+    "documentation"
+   ],
+   "created": "2026-05-16T04:30:37Z",
+   "updated": "2026-09-27T21:38:10Z",
+   "comments": 0
+  },
+  {
+   "id": "5490627263",
+   "repo": "simonw/datasette",
+   "title": "Release announcement and final changelog for 1.0",
+   "url": "https://github.com/simonw/datasette/issues/2947",
+   "labels": [
+    "documentation"
+   ],
+   "created": "2026-09-17T17:25:59Z",
+   "updated": "2026-09-17T17:25:59Z",
+   "comments": 0
+  },
+  {
+   "id": "5490529348",
+   "repo": "simonw/datasette",
+   "title": "AGENTS.md with instructions for scanning for common security problems",
+   "url": "https://github.com/simonw/datasette/issues/2940",
+   "labels": [
+    "documentation"
+   ],
+   "created": "2026-09-17T17:15:28Z",
+   "updated": "2026-09-17T17:15:28Z",
+   "comments": 0
+  },
+  {
+   "id": "947044667",
+   "repo": "simonw/datasette",
+   "title": "Documentation on using Datasette as a library",
+   "url": "https://github.com/simonw/datasette/issues/1398",
+   "labels": [
+    "documentation"
+   ],
+   "created": "2021-07-18T14:15:27Z",
+   "updated": "2026-09-17T17:09:02Z",
+   "comments": 1
+  },
+  {
+   "id": "566515378",
+   "repo": "dbeaver/dbeaver",
+   "title": "Support for greek locale",
+   "url": "https://github.com/dbeaver/dbeaver/issues/7932",
+   "labels": [
+    "help wanted",
+    "xf:i18n"
+   ],
+   "created": "2020-02-17T21:00:20Z",
+   "updated": "2026-08-21T16:03:41Z",
+   "comments": 4
+  },
+  {
+   "id": "1028100085",
+   "repo": "sqlfluff/sqlfluff",
+   "title": "Add support for BTEQ commands in Teradata parsing",
+   "url": "https://github.com/sqlfluff/sqlfluff/issues/1673",
+   "labels": [
+    "bug",
+    "good first issue",
+    "teradata"
+   ],
+   "created": "2021-10-16T17:14:06Z",
+   "updated": "2026-07-09T23:18:28Z",
+   "comments": 2
+  },
+  {
+   "id": "1673553202",
+   "repo": "sqlfluff/sqlfluff",
+   "title": "Align columns in CREATE TABLE statement",
+   "url": "https://github.com/sqlfluff/sqlfluff/issues/4783",
+   "labels": [
+    "enhancement",
+    "documentation"
+   ],
+   "created": "2023-04-18T17:25:55Z",
+   "updated": "2026-06-15T18:22:19Z",
+   "comments": 2
+  },
+  {
+   "id": "3518587410",
+   "repo": "skeletonlabs/skeleton",
+   "title": "Docs: Reorganize various doc sections",
+   "url": "https://github.com/skeletonlabs/skeleton/issues/3960",
+   "labels": [
+    "documentation"
+   ],
+   "created": "2025-10-15T15:38:51Z",
+   "updated": "2026-05-04T15:56:28Z",
+   "comments": 2
+  },
+  {
+   "id": "259372060",
+   "repo": "dbeaver/dbeaver",
+   "title": "Multiple-line values in Query Results",
+   "url": "https://github.com/dbeaver/dbeaver/issues/2192",
+   "labels": [
+    "help wanted",
+    "xf:data",
+    "xf:data editor"
+   ],
+   "created": "2017-09-21T04:28:05Z",
+   "updated": "2026-04-02T05:10:40Z",
+   "comments": 4
+  }
+ ]
 }
