@@ -1,6 +1,22 @@
 {
- "updatedAt": "2026-11-18T05:18:51.881Z",
+ "updatedAt": "2026-11-19T05:22:39.326Z",
  "items": [
+  {
+   "id": "1122557010",
+   "repo": "simonw/datasette",
+   "title": "Get the tests passing against Windows",
+   "url": "https://github.com/simonw/datasette/issues/1627",
+   "labels": [
+    "bug",
+    "help wanted",
+    "minor",
+    "ci",
+    "windows"
+   ],
+   "created": "2022-02-03T01:23:06Z",
+   "updated": "2026-11-19T00:07:13Z",
+   "comments": 1
+  },
   {
    "id": "6401041727",
    "repo": "sveltejs/kit",
@@ -124,18 +140,6 @@
    "created": "2026-09-17T17:15:28Z",
    "updated": "2026-09-17T17:15:28Z",
    "comments": 0
-  },
-  {
-   "id": "947044667",
-   "repo": "simonw/datasette",
-   "title": "Documentation on using Datasette as a library",
-   "url": "https://github.com/simonw/datasette/issues/1398",
-   "labels": [
-    "documentation"
-   ],
-   "created": "2021-07-18T14:15:27Z",
-   "updated": "2026-09-17T17:09:02Z",
-   "comments": 1
   },
   {
    "id": "566515378",
