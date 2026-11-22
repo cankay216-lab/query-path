@@ -1,20 +1,18 @@
 {
- "updatedAt": "2026-11-21T05:11:14.121Z",
+ "updatedAt": "2026-11-22T05:14:29.313Z",
  "items": [
   {
-   "id": "1122557010",
+   "id": "1509783085",
    "repo": "simonw/datasette",
-   "title": "Get the tests passing against Windows",
-   "url": "https://github.com/simonw/datasette/issues/1627",
+   "title": "sql-formatter javascript is not now working with CloudFlare rocketloader",
+   "url": "https://github.com/simonw/datasette/issues/1969",
    "labels": [
     "bug",
     "help wanted",
-    "minor",
-    "ci",
-    "windows"
+    "javascript"
    ],
-   "created": "2022-02-03T01:23:06Z",
-   "updated": "2026-11-19T00:07:13Z",
+   "created": "2022-12-23T21:14:06Z",
+   "updated": "2026-11-21T17:51:59Z",
    "comments": 1
   },
   {
