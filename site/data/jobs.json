@@ -1,8 +1,52 @@
 {
- "updatedAt": "2026-11-23T05:33:12.555Z",
+ "updatedAt": "2026-11-24T05:22:51.336Z",
  "region": "All of Poland + remote",
  "source": "justjoin.it",
  "items": [
+  {
+   "id": "in4ge-sp-z-o-o--administrator-ka-systemow-bankowych-wroclaw-admin",
+   "title": "Administrator/ka Systemów Bankowych",
+   "company": "in4ge sp. z o.o.",
+   "city": "Wrocław",
+   "mode": "hybrid",
+   "url": "https://justjoin.it/job-offer/in4ge-sp-z-o-o--administrator-ka-systemow-bankowych-wroclaw-admin",
+   "summary": "Skills: Linux / AIX, AWS / Azure, Kubernetes, Docker / OpenShift, Terraform / Ansible.",
+   "role_type": "Support / SQL",
+   "skills": [
+    "Linux / AIX",
+    "AWS / Azure",
+    "Kubernetes",
+    "Docker / OpenShift",
+    "Terraform / Ansible",
+    "Bash",
+    "Python",
+    "PostgreSQL"
+   ],
+   "firstSeen": "2026-11-24",
+   "lastSeen": "2026-11-24"
+  },
+  {
+   "id": "infoplus-technologies-developer-analyst-warszawa-data",
+   "title": "Developer Analyst",
+   "company": "INFOPLUS TECHNOLOGIES",
+   "city": "Warszawa",
+   "mode": "hybrid",
+   "url": "https://justjoin.it/job-offer/infoplus-technologies-developer-analyst-warszawa-data",
+   "summary": "Skills: SQL, Python, Git, Jira, Java.",
+   "role_type": "Database developer",
+   "skills": [
+    "SQL",
+    "Python",
+    "Git",
+    "Jira",
+    "Java",
+    "REST API",
+    "English",
+    "Testing"
+   ],
+   "firstSeen": "2026-11-24",
+   "lastSeen": "2026-11-24"
+  },
   {
    "id": "coig-s-a--mlodszy-konsultant-konsultantka-katowice-erp",
    "title": "Młodszy Konsultant/ Konsultantka",
@@ -111,46 +155,110 @@
     "HTML"
    ],
    "firstSeen": "2026-11-19",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
-   "id": "squad-technical-support-engineer-wroclaw-support",
-   "title": "Technical Support Engineer",
-   "company": "SQUAD",
-   "city": "Wrocław",
-   "mode": "hybrid",
-   "url": "https://justjoin.it/job-offer/squad-technical-support-engineer-wroclaw-support",
-   "summary": "Skills: SQL, Jira, Networking.",
-   "role_type": "Support / SQL",
+   "id": "epam-systems-data-analytics-engineering-trainee-wroclaw-analytics-855f1c55",
+   "title": "Data Analytics Engineering Trainee",
+   "company": "EPAM Systems",
+   "city": "Wroclaw +6",
+   "mode": "remote",
+   "url": "https://justjoin.it/job-offer/epam-systems-data-analytics-engineering-trainee-wroclaw-analytics-855f1c55",
+   "summary": "Skills: SQL, Python, Relational Databases.",
+   "role_type": "Trainee",
    "skills": [
     "SQL",
-    "Jira",
-    "Networking"
+    "Python",
+    "Relational Databases"
    ],
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
-   "id": "antykwariat-i-ksiegarnia-tezeusz-junior-business-analyst-krakow-analytics",
-   "title": "Junior Business Analyst",
-   "company": "ANTYKWARIAT I KSIĘGARNIA TEZEUSZ",
-   "city": "Kraków",
-   "mode": "onsite",
-   "url": "https://justjoin.it/job-offer/antykwariat-i-ksiegarnia-tezeusz-junior-business-analyst-krakow-analytics",
-   "summary": "E-commerce business analyst using Power BI, Looker Studio, Tableau and Google Analytics.",
-   "role_type": "Data / BI analyst",
+   "id": "arla-it-graduate-programme-2027---gdansk-gdansk-other",
+   "title": "IT Graduate Programme 2027 - Gdansk",
+   "company": "Arla",
+   "city": "Gdańsk +1",
+   "mode": "hybrid",
+   "url": "https://justjoin.it/job-offer/arla-it-graduate-programme-2027---gdansk-gdansk-other",
+   "summary": "Skills: STEM Degree, English.",
+   "role_type": "Graduate programme",
    "skills": [
-    "Google Analytics",
-    "Python",
-    "Marketplace",
-    "Looker Studio",
-    "Tableau",
-    "Power BI",
-    "Analiza Biznesowa",
-    "Analityczne Myślenie"
+    "STEM Degree",
+    "English"
    ],
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
+  },
+  {
+   "id": "act-digital-analityk-systemowy--procesy-kredytowe-wroclaw-analytics",
+   "title": "Analityk Systemowy- Procesy Kredytowe",
+   "company": "act digital",
+   "city": "Wrocław +1",
+   "mode": "remote",
+   "url": "https://justjoin.it/job-offer/act-digital-analityk-systemowy--procesy-kredytowe-wroclaw-analytics",
+   "summary": "Skills: REST API, SQL, BPMN, AbInitio.",
+   "role_type": "Analyst",
+   "skills": [
+    "REST API",
+    "SQL",
+    "BPMN",
+    "AbInitio"
+   ],
+   "firstSeen": "2026-11-17",
+   "lastSeen": "2026-11-24"
+  },
+  {
+   "id": "ness-solution-junior-power-bi-fp-a-analyst-warszawa-data-94878101",
+   "title": "Junior Power BI / FP&A Analyst",
+   "company": "Ness Solution",
+   "city": "Warszawa",
+   "mode": "hybrid",
+   "url": "https://justjoin.it/job-offer/ness-solution-junior-power-bi-fp-a-analyst-warszawa-data-94878101",
+   "summary": "Power BI, SQL, DAX and Excel with a finance angle.",
+   "role_type": "Data / BI analyst",
+   "skills": [
+    "Power BI",
+    "MS Excel",
+    "SQL",
+    "DAX"
+   ],
+   "firstSeen": "2026-11-17",
+   "lastSeen": "2026-11-24"
+  },
+  {
+   "id": "accenture-wealth-platforms-junior-programmer-she-he-they--warszawa-data",
+   "title": "Wealth Platforms Junior Programmer (She/He/They)",
+   "company": "Accenture",
+   "city": "Warszawa",
+   "mode": "hybrid",
+   "url": "https://justjoin.it/job-offer/accenture-wealth-platforms-junior-programmer-she-he-they--warszawa-data",
+   "summary": "Junior Oracle PL/SQL programming on wealth-management platforms at a large employer; good database developer start.",
+   "role_type": "Database developer",
+   "skills": [
+    "Oracle",
+    "PL/SQL",
+    "OpenShift"
+   ],
+   "firstSeen": "2026-11-17",
+   "lastSeen": "2026-11-24"
+  },
+  {
+   "id": "tqlo-sp-z-o-o--junior-data-engineer-airflow-snowflake--warszawa-data-c888b623",
+   "title": "Junior Data Engineer (Airflow / Snowflake)",
+   "company": "TQLO SP. Z O.O.",
+   "city": "Warszawa",
+   "mode": "remote",
+   "url": "https://justjoin.it/job-offer/tqlo-sp-z-o-o--junior-data-engineer-airflow-snowflake--warszawa-data-c888b623",
+   "summary": "Pipelines on Snowflake and Airflow in Azure; SQL-heavy warehouse work. A stretch role.",
+   "role_type": "Data engineer",
+   "skills": [
+    "Snowflake",
+    "Airflow",
+    "Azure"
+   ],
+   "firstSeen": "2026-11-17",
+   "lastSeen": "2026-11-24"
   },
   {
    "id": "iss-world-junior-people-data-engineer-warsaw-data-ffb1e785",
@@ -172,7 +280,7 @@
     "Data Quality"
    ],
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "id": "netwise-junior-data-analyst-m-k--warszawa-data",
@@ -189,7 +297,7 @@
     "Power BI"
    ],
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "id": "webellian-sp-z-o-o-data-engineer-dbx-dbt-junior-warszawa-data",
@@ -211,7 +319,7 @@
     "Databricks"
    ],
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "id": "cloudfide-spolka-z-ograniczona-odpowiedzialnoscia-junior-data-engineer-warszawa-",
@@ -228,7 +336,7 @@
     "Azure"
    ],
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "id": "cloudfide-spolka-z-ograniczona-odpowiedzialnoscia-junior-power-bi-engineer-warsz",
@@ -247,7 +355,7 @@
     "DAX"
    ],
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "id": "hsbc-service-delivery-hsbc-2027-technology-graduate-programmes-krakow-data",
@@ -262,23 +370,7 @@
     "Technology"
    ],
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
-  },
-  {
-   "id": "arla-it-graduate-programme-2027---gdansk-gdansk-data",
-   "title": "IT Graduate Programme 2027 - Gdansk",
-   "company": "Arla",
-   "city": "Gdańsk",
-   "mode": "hybrid",
-   "url": "https://justjoin.it/job-offer/arla-it-graduate-programme-2027---gdansk-gdansk-data",
-   "summary": "Skills: STEM Degree, English.",
-   "role_type": "Graduate programme",
-   "skills": [
-    "STEM Degree",
-    "English"
-   ],
-   "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "id": "grid-dynamics-poland-data-scientist-intern-gdansk-data",
@@ -297,7 +389,7 @@
     "Data Science"
    ],
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "id": "droplabs-junior-data-analyst-krakow-data",
@@ -319,24 +411,7 @@
     "Amplitude"
    ],
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
-  },
-  {
-   "id": "accenture-wealth-platforms-junior-programmer-she-he-they--warszawa-data",
-   "title": "Wealth Platforms Junior Programmer (She/He/They)",
-   "company": "Accenture",
-   "city": "Warszawa",
-   "mode": "hybrid",
-   "url": "https://justjoin.it/job-offer/accenture-wealth-platforms-junior-programmer-she-he-they--warszawa-data",
-   "summary": "Junior Oracle PL/SQL programming on wealth-management platforms at a large employer; good database developer start.",
-   "role_type": "Database developer",
-   "skills": [
-    "Oracle",
-    "PL/SQL",
-    "OpenShift"
-   ],
-   "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "id": "itelence-junior-data-engineer-warszawa-data",
@@ -357,7 +432,7 @@
     "Git"
    ],
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "id": "n-ix-junior-data-engineer-databricks--krakow-data",
@@ -376,7 +451,7 @@
     "SQL"
    ],
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "id": "b2bnetwork-junior-it-analyst---data-reporting-f-m-x--warszawa-data",
@@ -391,42 +466,7 @@
     "SQL"
    ],
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
-  },
-  {
-   "id": "ness-solution-junior-power-bi-fp-a-analyst-warszawa-data-94878101",
-   "title": "Junior Power BI / FP&A Analyst",
-   "company": "Ness Solution",
-   "city": "Warszawa",
-   "mode": "hybrid",
-   "url": "https://justjoin.it/job-offer/ness-solution-junior-power-bi-fp-a-analyst-warszawa-data-94878101",
-   "summary": "Power BI, SQL, DAX and Excel with a finance angle.",
-   "role_type": "Data / BI analyst",
-   "skills": [
-    "Power BI",
-    "MS Excel",
-    "SQL",
-    "DAX"
-   ],
-   "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
-  },
-  {
-   "id": "tqlo-sp-z-o-o--junior-data-engineer-airflow-snowflake--warszawa-data-c888b623",
-   "title": "Junior Data Engineer (Airflow / Snowflake)",
-   "company": "TQLO SP. Z O.O.",
-   "city": "Warszawa",
-   "mode": "remote",
-   "url": "https://justjoin.it/job-offer/tqlo-sp-z-o-o--junior-data-engineer-airflow-snowflake--warszawa-data-c888b623",
-   "summary": "Pipelines on Snowflake and Airflow in Azure; SQL-heavy warehouse work. A stretch role.",
-   "role_type": "Data engineer",
-   "skills": [
-    "Snowflake",
-    "Airflow",
-    "Azure"
-   ],
-   "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "id": "xyt-data-scientist-wroclaw-data",
@@ -445,7 +485,29 @@
     "Git"
    ],
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
+  },
+  {
+   "id": "antykwariat-i-ksiegarnia-tezeusz-junior-business-analyst-krakow-analytics",
+   "title": "Junior Business Analyst",
+   "company": "ANTYKWARIAT I KSIĘGARNIA TEZEUSZ",
+   "city": "Kraków",
+   "mode": "onsite",
+   "url": "https://justjoin.it/job-offer/antykwariat-i-ksiegarnia-tezeusz-junior-business-analyst-krakow-analytics",
+   "summary": "E-commerce business analyst using Power BI, Looker Studio, Tableau and Google Analytics.",
+   "role_type": "Data / BI analyst",
+   "skills": [
+    "Google Analytics",
+    "Python",
+    "Marketplace",
+    "Looker Studio",
+    "Tableau",
+    "Power BI",
+    "Analiza Biznesowa",
+    "Analityczne Myślenie"
+   ],
+   "firstSeen": "2026-11-17",
+   "lastSeen": "2026-11-24"
   },
   {
    "id": "kpmg-consultant-junior-consultant---ryzyko-kredytowe-warszawa-analytics",
@@ -464,7 +526,7 @@
     "R"
    ],
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "id": "terg-s-a--mlodszy-specjalista-microsoft-dynamics-365-f-o-k-m--warszawa-analytics",
@@ -483,7 +545,7 @@
     "Power Automate"
    ],
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "id": "grid-dynamics-poland-business-system-analyst-intern-krakow-analytics",
@@ -500,7 +562,7 @@
     "SQL"
    ],
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "id": "pekao-conext-analityk-biznesowy-wdrozenie-systemu-do-wykonywania-funkcji-depozyt",
@@ -518,7 +580,7 @@
     "Business Analysis"
    ],
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "id": "dsv-junior-analyst-m-f-d--warszawa-analytics",
@@ -539,7 +601,7 @@
     "Power BI"
    ],
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "id": "dcg-junior-it-analyst-warszawa-analytics",
@@ -556,7 +618,7 @@
     "Confluence"
    ],
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "id": "optiveum-junior-it-analyst-warszawa-analytics-0aeebd85",
@@ -578,43 +640,24 @@
     "Temenos Transact (T24)"
    ],
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
-   "id": "epam-systems-data-analytics-engineering-trainee-katowice-analytics-41fad236",
-   "title": "Data Analytics Engineering Trainee",
-   "company": "EPAM Systems",
-   "city": "Katowice +6",
-   "mode": "remote",
-   "url": "https://justjoin.it/job-offer/epam-systems-data-analytics-engineering-trainee-katowice-analytics-41fad236",
-   "summary": "Skills: Data Integration, SQL, Python, Relational Databases.",
-   "role_type": "Trainee",
+   "id": "squad-technical-support-engineer-wroclaw-support",
+   "title": "Technical Support Engineer",
+   "company": "SQUAD",
+   "city": "Wrocław",
+   "mode": "hybrid",
+   "url": "https://justjoin.it/job-offer/squad-technical-support-engineer-wroclaw-support",
+   "summary": "Skills: SQL, Jira, Networking.",
+   "role_type": "Support / SQL",
    "skills": [
-    "Data Integration",
     "SQL",
-    "Python",
-    "Relational Databases"
+    "Jira",
+    "Networking"
    ],
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
-  },
-  {
-   "id": "act-digital-analityk-systemowy--procesy-kredytowe-wroclaw-analytics",
-   "title": "Analityk Systemowy- Procesy Kredytowe",
-   "company": "act digital",
-   "city": "Wrocław +1",
-   "mode": "remote",
-   "url": "https://justjoin.it/job-offer/act-digital-analityk-systemowy--procesy-kredytowe-wroclaw-analytics",
-   "summary": "Skills: REST API, SQL, BPMN, AbInitio.",
-   "role_type": "Analyst",
-   "skills": [
-    "REST API",
-    "SQL",
-    "BPMN",
-    "AbInitio"
-   ],
-   "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "id": "antal-sp-z-o-o--junior-application-support-specialist-warszawa-support",
@@ -631,7 +674,7 @@
     "Testing"
    ],
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "id": "electromobility-poland-mlodszy-specjalista-mlodsza-specjalistka-ds-infrastruktur",
@@ -653,7 +696,7 @@
     "LAN"
    ],
    "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-23"
+   "lastSeen": "2026-11-24"
   },
   {
    "id": "ten-square-games-junior-data-scientist-f-m-d--wroclaw-data",
@@ -829,162 +872,6 @@
    ],
    "firstSeen": "2026-11-17",
    "lastSeen": "2026-11-18"
-  },
-  {
-   "id": "proservice-sql",
-   "title": "Młodszy Programista / Młodsza Programistka SQL",
-   "company": "ProService Finteco",
-   "city": "Warszawa",
-   "mode": "hybrid",
-   "url": "https://justjoin.it/job-offer/proservice-finteco-sp-z-o-o--mlodszy-programista-mlodsza-programistka-sql-warszawa-architecture",
-   "summary": "Junior SQL developer role. A direct match for the database developer path.",
-   "role_type": "Database developer",
-   "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-17"
-  },
-  {
-   "id": "algoteque-sql-support",
-   "title": "Junior SQL Developer / Application Support Specialist",
-   "company": "ALGOTEQUE SERVICES",
-   "city": "Warszawa",
-   "mode": "hybrid",
-   "url": "https://justjoin.it/job-offer/algoteque-services-junior-sql-developer-application-support-specialist-warszawa-support",
-   "summary": "SQL and Unix. Mix of SQL development and application support.",
-   "role_type": "Support / SQL",
-   "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-17"
-  },
-  {
-   "id": "modivo-sql-bi",
-   "title": "Młodszy Analityk SQL/BI",
-   "company": "MODIVO PLATFORM",
-   "city": "Warszawa",
-   "mode": "hybrid",
-   "url": "https://justjoin.it/job-offer/modivo-platform-mlodszy-analityk-sql-bi-k-m--warszawa-data",
-   "summary": "SQL, BI and Excel at an e-commerce company. Very close to the practice shop database.",
-   "role_type": "Data / BI analyst",
-   "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-17"
-  },
-  {
-   "id": "dsv-data-quality",
-   "title": "Junior Data Quality Analyst",
-   "company": "DSV",
-   "city": "Warszawa",
-   "mode": "hybrid",
-   "url": "https://justjoin.it/job-offer/dsv-junior-data-quality-analyst-m-f-d--warszawa-data",
-   "summary": "Data quality checks, Excel and Power BI in logistics.",
-   "role_type": "Data analyst",
-   "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-17"
-  },
-  {
-   "id": "comarch-service-desk",
-   "title": "Młodszy inżynier service desk",
-   "company": "COMARCH",
-   "city": "Kraków",
-   "mode": "hybrid",
-   "url": "https://justjoin.it/job-offer/comarch-mlodszy-inzynier-service-desk-k-m-x--krakow-support-9c16b8ca",
-   "summary": "Service desk engineer at a large Polish software company; SQL, Linux, networks.",
-   "role_type": "Support",
-   "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-17"
-  },
-  {
-   "id": "bpx-it-specialist",
-   "title": "Młodszy Specjalista IT",
-   "company": "BPX S.A.",
-   "city": "Wrocław",
-   "mode": "hybrid",
-   "url": "https://justjoin.it/job-offer/bpx-s-a--mlodszy-specjalista-it-wroclaw-support",
-   "summary": "Junior IT specialist; MS SQL, Oracle, Windows/Linux.",
-   "role_type": "Support",
-   "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-17"
-  },
-  {
-   "id": "kamsoft-katowice",
-   "title": "Konsultant/Konsultantka ds. Wdrożeń i Serwisu",
-   "company": "KAMSOFT S.A.",
-   "city": "Katowice",
-   "mode": "hybrid",
-   "url": "https://justjoin.it/job-offer/kamsoft-s-a--konsultant-konsultantka-ds-wdrozen-i-serwisu-katowice-support",
-   "summary": "Implementation and service consultant; SQL and Oracle. Also listed in Poznań, Konin and Leszno.",
-   "role_type": "Support",
-   "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-17"
-  },
-  {
-   "id": "experis-app-support",
-   "title": "Associate Application Support Specialist",
-   "company": "Experis Manpower Group",
-   "city": "Wrocław",
-   "mode": "hybrid",
-   "url": "https://justjoin.it/job-offer/experis-manpower-group-associate-application-support-specialist-wroclaw-support",
-   "summary": "Entry-level application support with ServiceNow.",
-   "role_type": "Support",
-   "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-17"
-  },
-  {
-   "id": "kontomatik-support",
-   "title": "Technical Support Engineer (L1/L2)",
-   "company": "Kontomatik",
-   "city": "Warszawa",
-   "mode": "remote",
-   "url": "https://justjoin.it/job-offer/kontomatik-sp-z-o-o--technical-support-engineer-l1-l2--warszawa-support-e33e8277",
-   "summary": "L1/L2 technical support at a fintech, remote.",
-   "role_type": "Support",
-   "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-17"
-  },
-  {
-   "id": "allegro-data-tools",
-   "title": "Junior Data Engineer – Data Tools",
-   "company": "Allegro",
-   "city": "Warszawa",
-   "mode": "hybrid",
-   "url": "https://justjoin.it/job-offer/allegro-junior-data-engineer---data-tools-warszawa-data",
-   "summary": "SQL and Python at Poland's biggest e-commerce company. A stretch role.",
-   "role_type": "Data engineer",
-   "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-17"
-  },
-  {
-   "id": "vertex-trainee-de",
-   "title": "Trainee Data Engineer",
-   "company": "Vertex Recruitments",
-   "city": "Warszawa +2 cities",
-   "mode": "remote",
-   "url": "https://justjoin.it/job-offer/vertex-recruitments-trainee-data-engineer-warszawa-data",
-   "summary": "Trainee position: SQL, Python, data warehousing.",
-   "role_type": "Trainee",
-   "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-17"
-  },
-  {
-   "id": "antal-junior-it-engineer",
-   "title": "Junior IT Engineer",
-   "company": "Antal Sp. z o.o.",
-   "city": "Zabrze",
-   "mode": "onsite",
-   "url": "https://justjoin.it/job-offer/antal-sp-z-o-o--junior-it-engineer-zabrze-admin",
-   "summary": "Infrastructure role with SQL Server and Windows Server; builds on configuring SQL Server environments.",
-   "role_type": "Support / SQL",
-   "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-17"
-  },
-  {
-   "id": "asseco-konsultant-wdrozen",
-   "title": "Konsultant ds. wdrożeń (k/m/os.)",
-   "company": "Asseco Data Systems",
-   "city": "Gdańsk +4 cities",
-   "mode": "hybrid",
-   "url": "https://justjoin.it/job-offer/asseco-data-systems-konsultant-ds-wdrozen-k-m-os--gdansk-analytics",
-   "summary": "Implementation consultant role involving databases, APIs and test scenarios.",
-   "role_type": "Support / SQL",
-   "firstSeen": "2026-11-17",
-   "lastSeen": "2026-11-17"
   }
  ]
 }

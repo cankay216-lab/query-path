@@ -1,6 +1,18 @@
 {
- "updatedAt": "2026-11-23T05:33:59.567Z",
+ "updatedAt": "2026-11-24T05:23:39.362Z",
  "items": [
+  {
+   "id": "4647694223",
+   "repo": "sveltejs/kit",
+   "title": "query: Normalize cache key using schema to prevent stale reads from extra input properties",
+   "url": "https://github.com/sveltejs/kit/issues/16029",
+   "labels": [
+    "documentation"
+   ],
+   "created": "2026-06-12T08:35:10Z",
+   "updated": "2026-11-23T23:46:23Z",
+   "comments": 1
+  },
   {
    "id": "1509783085",
    "repo": "simonw/datasette",
@@ -101,18 +113,6 @@
    ],
    "created": "2026-10-01T00:30:39Z",
    "updated": "2026-10-01T00:54:08Z",
-   "comments": 0
-  },
-  {
-   "id": "4458528561",
-   "repo": "sveltejs/kit",
-   "title": "Docs: add more comprehensive error handling patterns for form actions",
-   "url": "https://github.com/sveltejs/kit/issues/15854",
-   "labels": [
-    "documentation"
-   ],
-   "created": "2026-05-16T04:30:37Z",
-   "updated": "2026-09-27T21:38:10Z",
    "comments": 0
   },
   {
