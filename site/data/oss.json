@@ -1,6 +1,22 @@
 {
- "updatedAt": "2026-11-27T05:26:22.759Z",
+ "updatedAt": "2026-11-28T05:18:25.460Z",
  "items": [
+  {
+   "id": "2110363817",
+   "repo": "metabase/metabase",
+   "title": "Exporting files with spaces on Windows machines will break the export",
+   "url": "https://github.com/metabase/metabase/issues/38319",
+   "labels": [
+    "Type:Bug",
+    "Priority:P3",
+    ".Backend",
+    "Operation/Serialization",
+    "good first issue"
+   ],
+   "created": "2024-01-31T15:26:53Z",
+   "updated": "2026-11-27T19:03:24Z",
+   "comments": 0
+  },
   {
    "id": "4647694223",
    "repo": "sveltejs/kit",
@@ -38,22 +54,6 @@
    "created": "2026-11-15T06:52:09Z",
    "updated": "2026-11-15T06:52:24Z",
    "comments": 0
-  },
-  {
-   "id": "5667052685",
-   "repo": "metabase/metabase",
-   "title": "Gauge loses all its ranges when one Min or Max is empty",
-   "url": "https://github.com/metabase/metabase/issues/83439",
-   "labels": [
-    "Type:Bug",
-    "Priority:P3",
-    "Difficulty:Easy",
-    ".Frontend",
-    ".Needs Triage"
-   ],
-   "created": "2026-10-01T18:23:43Z",
-   "updated": "2026-11-02T10:17:34Z",
-   "comments": 2
   },
   {
    "id": "6125966618",
